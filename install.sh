@@ -194,7 +194,7 @@ EOF
     cat <<EOF > docker-compose.yml
 services:
   ${panel_name}:
-    image: ghcr.io/samaelleo/3x-ui-main:latest
+    image: ghcr.io/samaelleo/3x-ui-postgresql:latest
     container_name: ${panel_name}
     volumes:
       - ./${db_type}:/etc/x-ui/
@@ -213,7 +213,7 @@ EOF
         cat <<EOF > docker-compose.yml
 services:
   ${panel_name}:
-    image: ghcr.io/samaelleo/3x-ui-main:latest
+    image: ghcr.io/samaelleo/3x-ui-postgresql:latest
     container_name: ${panel_name}
     depends_on:
       postgres:
@@ -262,7 +262,7 @@ EOF
     local server_ip=$(curl -s --max-time 3 -4 https://api.ipify.org)
     
     # Install CLI Manager Script
-    curl -4fLRo /usr/local/bin/x-ui https://raw.githubusercontent.com/samaelleo/3x-ui-main/main/x-ui-docker.sh
+    curl -4fLRo /usr/local/bin/x-ui https://raw.githubusercontent.com/samaelleo/3x-ui-postgresql/main/x-ui-docker.sh
     if [[ $? -ne 0 ]]; then
         echo -e "${red}Failed to download the new Docker CLI manager (x-ui.sh).${plain}"
     else
@@ -291,3 +291,4 @@ echo -e "${green}Running Docker-based Multi-Panel Installation...${plain}"
 install_base
 install_docker
 setup_docker_panel
+

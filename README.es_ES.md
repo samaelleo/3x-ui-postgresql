@@ -7,13 +7,13 @@
   </picture>
 </p>
 
-[![Release](https://img.shields.io/github/v/release/samaelleo/3x-ui-main.svg)](https://github.com/samaelleo/3x-ui-main/releases)
-[![Build](https://img.shields.io/github/actions/workflow/status/samaelleo/3x-ui-main/release.yml.svg)](https://github.com/samaelleo/3x-ui-main/actions)
-[![GO Version](https://img.shields.io/github/go-mod/go-version/samaelleo/3x-ui-main.svg)](#)
-[![Downloads](https://img.shields.io/github/downloads/samaelleo/3x-ui-main/total.svg)](https://github.com/samaelleo/3x-ui-main/releases/latest)
+[![Release](https://img.shields.io/github/v/release/samaelleo/3x-ui-postgresql.svg)](https://github.com/samaelleo/3x-ui-postgresql/releases)
+[![Build](https://img.shields.io/github/actions/workflow/status/samaelleo/3x-ui-postgresql/release.yml.svg)](https://github.com/samaelleo/3x-ui-postgresql/actions)
+[![GO Version](https://img.shields.io/github/go-mod/go-version/samaelleo/3x-ui-postgresql.svg)](#)
+[![Downloads](https://img.shields.io/github/downloads/samaelleo/3x-ui-postgresql/total.svg)](https://github.com/samaelleo/3x-ui-postgresql/releases/latest)
 [![License](https://img.shields.io/badge/license-GPL%20V3-blue.svg?longCache=true)](https://www.gnu.org/licenses/gpl-3.0.en.html)
-[![Go Reference](https://pkg.go.dev/badge/github.com/samaelleo/3x-ui-main/v2.svg)](https://pkg.go.dev/github.com/samaelleo/3x-ui-main/v2)
-[![Go Report Card](https://goreportcard.com/badge/github.com/samaelleo/3x-ui-main/v2)](https://goreportcard.com/report/github.com/samaelleo/3x-ui-main/v2)
+[![Go Reference](https://pkg.go.dev/badge/github.com/samaelleo/3x-ui-postgresql/v2.svg)](https://pkg.go.dev/github.com/samaelleo/3x-ui-postgresql/v2)
+[![Go Report Card](https://goreportcard.com/badge/github.com/samaelleo/3x-ui-postgresql/v2)](https://goreportcard.com/report/github.com/samaelleo/3x-ui-postgresql/v2)
 
 **3X-UI** — panel de control avanzado basado en web de código abierto diseñado para gestionar el servidor Xray-core. Ofrece una interfaz fácil de usar para configurar y monitorear varios protocolos VPN y proxy.
 
@@ -25,10 +25,10 @@ Como una versión mejorada del proyecto X-UI original, 3X-UI proporciona mayor e
 ## Inicio Rápido
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/samaelleo/3x-ui-main/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/samaelleo/3x-ui-postgresql/master/install.sh)
 ```
 
-Para documentación completa, visita la [Wiki del proyecto](https://github.com/samaelleo/3x-ui-main/wiki).
+Para documentación completa, visita la [Wiki del proyecto](https://github.com/samaelleo/3x-ui-postgresql/wiki).
 
 ## Un Agradecimiento Especial a
 
@@ -54,4 +54,4 @@ Para documentación completa, visita la [Wiki del proyecto](https://github.com/s
 
 ## Estrellas a lo Largo del Tiempo
 
-[![Stargazers over time](https://starchart.cc/samaelleo/3x-ui-main.svg?variant=adaptive)](https://starchart.cc/samaelleo/3x-ui-main) 
+[![Stargazers over time](https://starchart.cc/samaelleo/3x-ui-postgresql.svg?variant=adaptive)](https://starchart.cc/samaelleo/3x-ui-postgresql) 
